@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع تاريخ الفن - رأس الملكة نفرتيتي</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: #f4f6f9;
+            color: #2c3e50;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .slide {
+            background: #ffffff;
+            width: 100%;
+            max-width: 900px;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e1e8ed;
+            border-right: 8px solid #0080a7;
+            position: relative;
+        }
+
+        .slide-header {
+            border-bottom: 2px solid #e1e8ed;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .slide-title {
+            color: #0080a7;
+            font-size: 1.8rem;
+            font-weight: 900;
+        }
+
+        .slide-number {
+            background: #d4af37;
+            color: #ffffff;
+            font-weight: 700;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+        }
+
+        .large-image-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 15px;
+        }
+
+        .large-image-container {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 4px solid #d4af37;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            background: #fff;
+        }
+
+        .large-image {
+            width: 100%;
+            height: 480px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .image-caption {
+            font-size: 0.95rem;
+            color: #64748b;
+            font-style: italic;
+        }
+
+        .content-block {
+            margin-bottom: 20px;
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .section-label {
+            color: #0080a7;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-label::before {
+            content: "◆";
+            color: #d4af37;
+            font-size: 0.8rem;
+        }
+
+        .section-text {
+            color: #334155;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            padding-right: 15px;
+        }
+
+        .sub-list {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .sub-item {
+            background: #ffffff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            border-right: 4px solid #d4af37;
+            border: 1px solid #cbd5e1;
+            border-right-width: 4px;
+            font-size: 0.98rem;
+            color: #1e293b;
+        }
+
+        .highlight-quote {
+            background: #f0f9ff;
+            border: 1px solid #0080a7;
+            border-right: 6px solid #d4af37;
+            padding: 20px;
+            border-radius: 12px;
+            color: #0f172a;
+            font-style: italic;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .large-image { height: 320px; }
+            .slide { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- السلايد الأولى -->
+    <div class="slide">
+        <div class="slide-header">
+            <h2 class="slide-title">هوية التمثال وسياقه</h2>
+            <span class="slide-number">01 / 03</span>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">العنوان الجذاب واسم التمثال</div>
+            <div class="section-text" style="font-size: 1.25rem; font-weight: 700; color: #0f172a;">
+                إشراقة الخلود: رأس الملكة نفرتيتي - أيقونة الجمال الأبدي
+            </div>
+        </div>
+
+        <!-- كارت الصورة -->
+        <div class="large-image-card">
+            <div class="large-image-container">
+                <img class="large-image" src="nefertiti.png.png" alt="رأس الملكة نفرتيتي - النحات تحتمس">
+            </div>
+            <div class="image-caption">
+                رأس الملكة نفرتيتي - معروض بمتحف برلين الجديد (Neues Museum)
+            </div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">بطاقة المعلومات الأساسية</div>
+            <div class="sub-list">
+                <div class="sub-item"><strong>الفنان:</strong> النحات الملكي تحتمس</div>
+                <div class="sub-item"><strong>الخامة:</strong> حجر جيري وجص ملون</div>
+                <div class="sub-item"><strong>مكان الحفظ:</strong> متحف برلين الجديد (Neues Museum)</div>
+            </div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">العصر والخلفية التاريخية والحضارية</div>
+            <div class="section-text">عصر الدولة الحديثة (الأسرة الثامنة عشر، حوالي 1345 ق.م)، فترة الملك إخناتون وثورة فن العمارنة.</div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">معلومة مميزة أو حقيقة موثقة</div>
+            <div class="section-text">العين اليسرى للتمثال غير مطعمة بالكوارتز مثل العين اليمنى، وهو ما يُرجح أنه كان نموذجاً تعليمياً.</div>
+        </div>
+    </div>
+
+    <!-- السلايد الثانية -->
+    <div class="slide">
+        <div class="slide-header">
+            <h2 class="slide-title">قراءة العمل بصرياً</h2>
+            <span class="slide-number">02 / 03</span>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">التحليل الوصفي والشُكلي</div>
+            <div class="section-text">يتميز التمثال بالاستطالة الرأسية والتوازن الفائق بين الخطوط المنحنية الناعمة والكتل المعمارية للتاج.</div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">تفصيلات من أجزاء التمثال</div>
+            <div class="sub-list">
+                <div class="sub-item"><strong>التاج الأزرق:</strong> الشكل الأسطواني الطويل المميز بشريطه الملكي وزهرة اللوتس.</div>
+                <div class="sub-item"><strong>الوجه والأنف:</strong> استقامة مثالية ونعومة فائقة في خطوط الفك والشفاه.</div>
+                <div class="sub-item"><strong>الرقبة:</strong> انسيابية طويلة تعكس المقاييس المثالية للجمال الملكي.</div>
+            </div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">الوظيفة والدلالة الرمزية</div>
+            <div class="section-text">تمثال ملكي تمثيلي استخدم كنموذج مجسم (Model) في ورشة النحات لتنفيذ أعمال ملكية أخرى.</div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">توضيح القيم الجمالية والتعبيرية</div>
+            <div class="section-text">إبراز التناغم الهادئ والسكينة والوقار الملكي مع لمسة من الواقعية الروحية.</div>
+        </div>
+    </div>
+
+    <!-- السلايد الثالثة -->
+    <div class="slide">
+        <div class="slide-header">
+            <h2 class="slide-title">التذوق والبصمة الفنية</h2>
+            <span class="slide-number">03 / 03</span>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">مقارنة فنية / سمة العصر</div>
+            <div class="section-text">تميز فن العمارنة بالخروج عن الجمود المثالي للأسرات السابقة والاتجاه نحو التعبيرية الحية والنعومة.</div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">قراءة الطالبة الشخصية للعمل</div>
+            <div class="highlight-quote">
+                "يعتبر التمثال تجسيداً حياً لقمة الذوق الجمالي، ومزجاً فريداً بين الأنوثة الهادئة والهيبة الملكية الخالدة."
+            </div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">القيم والسمات الجمالية</div>
+            <div class="sub-list">
+                <div class="sub-item"><strong>التوازن الحركي والبصري:</strong> ميل الرأس الخفيف مع وزن التاج للحفاظ على الاتزان.</div>
+                <div class="sub-item"><strong>الإيقاع الخطي:</strong> انحناءات الذقن والرقبة المتناسقة مع الأسطوانة.</div>
+                <div class="sub-item"><strong>التناغم اللوني:</strong> التضاد الجميل بين الأزرق الملكي ودرجات المغرة الداكنة والذهبي.</div>
+            </div>
+        </div>
+
+        <div class="content-block">
+            <div class="section-label">المصادر والمراجع</div>
+            <div class="section-text">سجلات الفن المصري القديم - كتالوج متحف برلين الجديد - دراسات فن العمارنة.</div>
+        </div>
+    </div>
+
+</body>
+</html>

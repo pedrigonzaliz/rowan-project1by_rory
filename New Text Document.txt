@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>مشروع تاريخ الفن - رأس الملكة نفرتيتي</title>
+    <style>
+        body { font-family: 'Cairo', Tahoma, sans-serif; background-color: #f4f6f9; color: #333; margin: 0; padding: 20px; }
+        .slide { background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); padding: 30px; margin-bottom: 30px; border-right: 8px solid #b8860b; }
+        h2 { color: #b8860b; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; }
+        ul { line-height: 1.8; }
+        li { margin-bottom: 10px; }
+        .highlight { background: #fffdf5; padding: 15px; border-radius: 8px; border: 1px dashed #b8860b; }
+    </style>
+</head>
+<body>
+
+    <div class="slide">
+        <h2>الصفحة الأولى: هوية التمثال وسياقه</h2>
+        <ul>
+            <li><strong>العنوان الجذاب واسم التمثال:</strong> إشراقة الخلود: رأس الملكة نفرتيتي - أيقونة الجمال الأبدي.</li>
+            <li><strong>صورة رئيسية واضحة للعمل:</strong> (صورة بروفايل جانبي لرأس الملكة نفرتيتي).</li>
+            <li><strong>بطاقة المعلومات الأساسية:</strong>
+                <ul>
+                    <li>الفنان: النحات الملكي تحتمس[span_0](start_span)[span_0](end_span).</li>
+                    <li>الخامة: حجر جيري وجص ملون[span_1](start_span)[span_1](end_span).</li>
+                    <li>مكان الحفظ: متحف برلين الجديد (Neues Museum)[span_2](start_span)[span_2](end_span).</li>
+                </ul>
+            </li>
+            <li><strong>العصر والخلفية التاريخية والحضارية:</strong> عصر الدولة الحديثة (الأسرة الثامنة عشر، حوالي 1345 ق.م)، فترة الملك إخناتون وفن العمارنة الذي تميز بالتحرر والواقعية المفرطة[span_3](start_span)[span_3](end_span).</li>
+            <li><strong>معلومة مميزة أو حقيقة موثقة:</strong> العين اليسرى للتمثال غير مطعمة بالكوارتز مثل اليمنى، مما جعلها لغزاً أثرياً محيراً حتى اليوم[span_4](start_span)[span_4](end_span).</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>الصفحة الثانية: قراءة العمل بصرياً</h2>
+        <ul>
+            <li><strong>صورة التمثال مع أسهم وتعليقات:</strong> (صورة التمثال وعليها أسهم تشير للتاج، والرقبة، والملامح)[span_5](start_span)[span_5](end_span).</li>
+            <li><strong>التحليل الوصفي والشُكلي:</strong> يتميز التمثال بالاستطالة الرأسية والتوازن الفائق بين الخطوط المنحنية الناعمة وتفاصيل الوجه الدقيقة[span_6](start_span)[span_6](end_span).</li>
+            <li><strong>تفصيلات من أجزاء التمثال:</strong>
+                <ul>
+                    <li>التاج الأزرق: الأسطواني الطويل المميز بشريطه الملكي[span_7](start_span)[span_7](end_span).</li>
+                    <li>الوجه والأنف: استقامة مثالية ونعومة فائقة في خطوط الفك والشفاه[span_8](start_span)[span_8](end_span).</li>
+                    <li>الرقبة: انسيابية طويلة تعكس مقاييس الجمال الملكي[span_9](start_span)[span_9](end_span).</li>
+                </ul>
+            </li>
+            <li><strong>الوظيفة والدلالة الرمزية:</strong> تمثال ملكي تمثيلي استخدم كنموذج في ورشة النحات لتخليد صورة الملكة شريكة الحكم والدين[span_10](start_span)[span_10](end_span).</li>
+            <li><strong>توضيح القيم الجمالية والتعبيرية:</strong> إبراز التناغم الهادئ والسكينة والوقار الملكي الساحر[span_11](start_span)[span_11](end_span).</li>
+        </ul>
+    </div>
+
+    <div class="slide">
+        <h2>الصفحة الثالثة: التذوق والبصمة الفنية</h2>
+        <ul>
+            <li><strong>مقارنة فنية / سمة العصر:</strong> تميز فن العمارنة بالخروج عن الجمود التقليدي للفن المصري القديم واتجاهه نحو الحيوية والواقعية التعبيرية الناعمة[span_12](start_span)[span_12](end_span).</li>
+            <li><strong>قراءة الطالبة الشخصية للعمل:</strong> <div class="highlight">"يعتبر التمثال تجسيداً حياً لقمة الذوق الجمالي؛ حيث نجح في مزج الأنوثة الطاغية بالهيبة الملكية في قطعة فنية متناهية الدقة.[span_13](start_span)"[span_13](end_span)</div></li>
+            <li><strong>من 3 إلى 5 قيم أو سمات جمالية مدعومة بأمثلة:</strong>
+                <ul>
+                    <li>التوازن الحركي والبصري: في استقامة الرأس والجسم[span_14](start_span)[span_14](end_span).</li>
+                    <li>الإيقاع الخطي: في انحناءات الذقن والرقبة[span_15](start_span)[span_15](end_span).</li>
+                    <li>التناغم اللوني: استخدام درجات المغرة والأزرق بحرفية[span_16](start_span)[span_16](end_span).</li>
+                </ul>
+            </li>
+            <li><strong>المصادر والمراجع:</strong> مراجع فن مصر القديمة وبيانات متحف برلين[span_17](start_span)[span_17](end_span).</li>
+        </ul>
+    </div>
+
+</body>
+</html>
